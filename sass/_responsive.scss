@@ -1,0 +1,42 @@
+@media screen and (max-width:995px){
+    .top{
+        .navbar-brand{
+            span{
+                font-size: 2rem !important;
+            }
+        }
+        .nav-item{
+            margin-top:1rem;
+        }
+        .nav-link{
+            display: inline-block !important;
+        }
+        .navbar-nav{
+            margin-top:2rem;
+            text-align: center;
+        }
+    }
+
+    #galary{
+        .grid{
+            margin-top:1.5rem;
+        }
+    }
+
+    #contact{
+        .map{
+            margin-bottom: 2rem;
+            iframe{
+                width:32rem;
+            }
+        }
+    }
+    .messenger{
+        
+        a{
+            font-size:4rem !important;
+
+        }
+    }
+ 
+}

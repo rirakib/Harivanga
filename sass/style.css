@@ -1,0 +1,384 @@
+@media screen and (max-width: 995px) {
+  .top .navbar-brand span {
+    font-size: 2rem !important;
+  }
+  .top .nav-item {
+    margin-top: 1rem;
+  }
+  .top .nav-link {
+    display: inline-block !important;
+  }
+  .top .navbar-nav {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  #galary .grid {
+    margin-top: 1.5rem;
+  }
+  #contact .map {
+    margin-bottom: 2rem;
+  }
+  #contact .map iframe {
+    width: 32rem;
+  }
+  .messenger a {
+    font-size: 4rem !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+}
+
+.section-margin {
+  margin: 5rem 0rem;
+}
+
+.section-padding {
+  margin: 4.5rem 0rem;
+}
+
+body {
+  background-color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.messenger {
+  position: absolute;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-top: 70%;
+  margin-left: 1%;
+  z-index: 99;
+  height: 10rem;
+  width: 10rem;
+  background-color: #2e2e2e;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.messenger a {
+  font-size: 6rem;
+  margin-top: 80%;
+  color: #008080;
+  line-height: 10rem;
+}
+
+.top {
+  background-color: #f5f5f5;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.top .navbar-brand img {
+  max-width: 6rem;
+}
+
+.top .navbar-brand span {
+  font-size: 3rem;
+  padding-top: 1rem;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.top .nav-item {
+  margin-right: 1rem;
+}
+
+.top .nav-item .nav-link {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #2e2e2e;
+  position: relative;
+}
+
+.top .nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  height: 0.4rem;
+  width: 0%;
+  background-color: #008080;
+  left: 0;
+  top: 0;
+  margin-top: 2.8rem;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.top .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+.top button.navbar-toggler {
+  background: #222;
+  padding-top: 0.7rem;
+  color: #FFF;
+}
+
+#home {
+  background-image: url(../img/home-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background-attachment: fixed;
+}
+
+#home .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home .main h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+#home .main .button {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#home .main .button a {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #2e2e2e;
+  padding: 1rem 1.8rem;
+  color: #ffffff;
+  position: relative;
+  border: 0.4rem solid #2e2e2e;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+#home .main .button a::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0;
+  background-color: #008080;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+#home .main .button a:hover:after {
+  width: 100%;
+  z-index: -1;
+}
+
+#home .main .button a:hover {
+  background-color: transparent;
+  z-index: 2;
+}
+
+#about .title h1 {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+
+#about .title h1::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 0.5rem;
+  background-color: #008080;
+  left: 0;
+  bottom: 0;
+}
+
+#about p {
+  font-size: 17px;
+}
+
+#about h3 {
+  font-size: 22px;
+  color: #008080;
+  font-weight: 500;
+}
+
+#about .answer {
+  margin-top: 3rem;
+}
+
+#about .answer p {
+  font-size: 17px;
+}
+
+#about .more-btn {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#about .more-btn a {
+  text-decoration: none;
+  font-size: 2rem;
+  background-color: #2e2e2e;
+  color: #ffffff;
+  padding: 1rem 1.8rem;
+  border: 0.4rem solid #2e2e2e;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+#about .more-btn a:hover {
+  background-color: transparent;
+  color: #2e2e2e;
+}
+
+#galary .title {
+  text-align: center;
+}
+
+#galary .title h1 {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  display: inline;
+}
+
+#galary .title h1::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 0.5rem;
+  background-color: #008080;
+  left: 0;
+  bottom: 0;
+}
+
+#galary .grid {
+  position: relative;
+}
+
+#galary .grid img {
+  max-height: 18rem;
+}
+
+#galary .grid::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #2e2e2e;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+#galary .grid:hover:after {
+  opacity: 0.3;
+  visibility: visible;
+}
+
+#contact .title {
+  text-align: center;
+}
+
+#contact .title h1 {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  display: inline;
+}
+
+#contact .title h1::after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  height: 0.5rem;
+  background-color: #008080;
+  left: 0;
+  bottom: 0;
+}
+
+#contact .add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .add-1 ul li {
+  font-size: 17px;
+  margin-top: 1.5rem;
+}
+
+#contact .add-2 .button {
+  display: inline-block;
+  margin: 0 5px;
+  height: 60px;
+  width: 60px;
+  background-color: crimson;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#contact .add-2 .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+#contact .add-2 .button span {
+  font-size: 2rem;
+  margin-left: 0.7rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+#contact .add-2 .button:hover {
+  width: 18rem;
+}
+
+footer {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 2rem 0rem;
+}
+/*# sourceMappingURL=style.css.map */
